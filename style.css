@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.maincontainer {
+  display: flex;
+}
+.navigation {
+  background-color: rgb(51, 104, 153);
+  border: 2px solid greenyellow;
+  width: 20%;
+}
+.content {
+  border: 2px solid rgb(14, 5, 143);
+  height: 100%;
+  width: 80%;
+  background-color: rgb(233, 231, 229);
+}
+.contentheader {
+  background-color: whitesmoke;
+}
+.contentrows {
+  padding: 20px;
+}
+.navlogo {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(37, 212, 212);
+}
+.navmenu {
+  margin-left: 20px;
+  padding: 10px;
+}
+.firstrow {
+  display: flex;
+  justify-content: space-between;
+}
+.element1 {
+  display: flex;
+
+  background-color: whitesmoke;
+}
+.arrowalign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagesize {
+  height: 100px;
+  width: 100px;
+  border: 1px solid green;
+  background-color: aquamarine;
+  margin-left: 10px;
+}
+
+.row2element1 {
+  width: 70%;
+  border: 2px solid greenyellow;
+}
+.headerrow2 {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2graph {
+  height: 200px;
+}
+.row2 {
+  display: flex;
+  padding: 20px;
+}
+.row2element2 {
+  margin-left: 50px;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 50%;
+}
+
+.headerrow2element2data {
+  display: flex;
+  justify-content: space-between;
+}
+.row2element2data {
+  padding: 10px;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 10px;
+}
+.para {
+  color: green;
+}
+.row3 {
+  height: 250px;
+  border: 2px solid yellowgreen;
+}
+.font {
+  color: rgb(182, 182, 174);
+}
+.row3header {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+.row3table {
+  width: 100%;
+}
+
+.textalign {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: whitesmoke;
+}
+.filbar {
+  height: 2px;
+  width: 50%;
+  background-color: rgb(231, 240, 231);
+}
+.insidefilbar {
+  height: 2px;
+}
+
+.textalign1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: whitesmoke;
+}
+.tableheader {
+  padding: 50px;
+}
+.paddingtopbottom {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: antiquewhite;
+}
